@@ -1,0 +1,4 @@
+config.py
+.history/
+.env
+*.db

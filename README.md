@@ -49,8 +49,8 @@ graph TD
 
 ### 🔹 المرحلة الأولى: التجهيز والـ Baseline
 - [x] إعداد مستودع GitHub والربط مع Google Colab.
-- [x] إنشاء قاعدة بيانات تجريبية (Ecommerce Schema: Customers, Products, Orders).
-- [x] اختبار النموذج الأساسي (Base Model) بدون Fine-tuning وقياس نسبة الخطأ.
+- [ ] إنشاء قاعدة بيانات تجريبية (Ecommerce Schema: Customers, Products, Orders).
+- [ ] اختبار النموذج الأساسي (Base Model) بدون Fine-tuning وقياس نسبة الخطأ.
 
 ### 🔹 المرحلة الثانية: الـ Fine-Tuning والتدريب
 - [ ] تجهيز الـ Dataset (`Spider` أو مخصصة) وتنسيقها بصيغة Instruction-Output.
