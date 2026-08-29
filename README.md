@@ -53,10 +53,10 @@ graph TD
 - [x] اختبار النموذج الأساسي (Base Model) بدون Fine-tuning وقياس نسبة الخطأ.
 
 ### 🔹 المرحلة الثانية: الـ Fine-Tuning والتدريب
-- [ ] تجهيز الـ Dataset (`Spider` أو مخصصة) وتنسيقها بصيغة Instruction-Output.
-- [ ] تدريب النموذج باستعمال `Unsloth` على كولاب مع تقنية `QLoRA`.
-- [ ] تقليل استهلاك الذاكرة وحفظ Weights/Adapter.
-- [ ] رفع النموذج المدرب إلى حساب **Hugging Face Hub**.
+- [x] تجهيز الـ Dataset (`Spider` أو مخصصة) وتنسيقها بصيغة Instruction-Output.
+- [x] تدريب النموذج باستعمال `Unsloth` على كولاب مع تقنية `QLoRA`.
+- [x] تقليل استهلاك الذاكرة وحفظ Weights/Adapter.
+- [x] رفع النموذج المدرب إلى حساب **Hugging Face Hub**.
 
 ### 🔹 المرحلة الثالثة: طبقة الأمان وتنفيذ الاستعلام (Guardrails & Execution)
 - [ ] بناء وحدات فحص الاستعلام (SQL Parser) لمنع أي استعلامات مخربة (`DROP`, `DELETE`, `UPDATE`).
